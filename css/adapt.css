@@ -1,0 +1,151 @@
+@media (max-width: 1200px) {
+
+    /* .item:nth-child(4) {
+        display: none;
+    } */
+    .nnn {
+        display: none;
+    }
+
+    .wrap {
+        flex-wrap: wrap;
+    }
+
+    .wrap-two {
+        flex-wrap: wrap;
+    }
+
+    .header,
+    .wrap-two {
+        padding: 34px 20px 0;
+    }
+
+    .item-two:nth-child(4) {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 700px) {
+    .hea-text {
+        display: none;
+    }
+
+}
+
+@media (max-width: 610px) {
+
+    .btn-two,
+    input {
+        width: 335px;
+    }
+
+    .price {
+        gap: 0;
+    }
+
+    .item-two p {
+        display: none;
+    }
+
+    .item-two:nth-child(4) p {
+        display: block;
+       }
+
+
+    .item {
+        max-width: 200px;
+        height: 370px;
+    }
+
+    .item:nth-child(4) {
+        display: none;
+    }
+
+    .item:nth-last-child(3) {
+        display: none;
+    }
+
+    .one {
+        height: 470px;
+        padding: 20px 0;
+    }
+
+    .wrap-two {
+        margin: 0;
+    }
+
+    .one h2 {
+        padding-bottom: 15px;
+    }
+
+    .two {
+        padding-top: 0;
+    }
+
+    .two h2 {
+        margin: 0;
+    }
+
+    .item-two {
+        height: 40px;
+        align-items: center;
+
+    }
+
+    .item-two:nth-child(4) {
+        margin: 0;
+    }
+
+    .wrap {
+        flex-wrap: nowrap;
+    }
+
+    .wrap-two {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        background: url(../img/Yanki\ \(51\)\ 1.svg  ) no-repeat center center/cover;
+    }
+
+    .hea-icons {
+        gap: 5px;
+    }
+
+    .logo img {
+        height: 20px;
+    }
+    .hea-icons img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .one {
+        height: 350px;
+    }
+
+    .item {
+        width: 165px;
+        height: 230px;
+    }
+
+    /* .header {
+            padding:30px 0;
+        } */
+
+}
+
+@media (max-width: 340px) {
+    input, .btn-two {
+        width: 300px;
+    }
+    .wrap {
+        flex-wrap: wrap;
+    }
+    .one {
+        height: 600px;
+    }
+}
